@@ -20,7 +20,7 @@ class Navigation extends React.Component {
         return(
             <div>
                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <div className="navbar-brand" href="">Hello World</div>
+                    <div className="navbar-brand" href="">magmemerge conflict dapat</div>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
