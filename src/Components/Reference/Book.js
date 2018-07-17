@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, FormGroup, Input, Label, Card, CardBody,} from 'reactstrap'
+import { Parallax, Background } from 'react-parallax'
 
 
 class Book extends React.Component {
@@ -34,7 +35,10 @@ class Book extends React.Component {
           };
         return(
             <div className="Hello">
-                <div className="Hello1">
+                <Parallax
+                    bgImage={require('../../Assets/Image/Bus.jpg')}
+                    style={{height:'650px'}}
+                >
                     <form onSubmit={this.Handlesubmit} ref={(el) => this.myFormRef = el}>
                         <Row className="div-1">         
                             <Col md="1">
@@ -135,7 +139,7 @@ class Book extends React.Component {
                             </Col>
                         </Row>
                     </form>
-                </div>
+                </Parallax>
             </div>
         )
     }
